@@ -12,7 +12,7 @@ Use:
 import Password from 'pwmaker';
 ```
 
-After importing it into your file, just use it in your project as you would any other component.
+After importing it into your file, just use it in your project as you would any other component. `<Password />` is a self-closing component.
 
 ```
 const Example = () => {
