@@ -1,5 +1,5 @@
 {
-    "name": "pwmaker",
+    "name": "react-password-maker",
     "version": "0.1.0",
     "description": "",
     "main": "./lib/Password.js",

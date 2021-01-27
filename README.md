@@ -4,12 +4,12 @@ React Password Maker is a component that you can import an use in your projects.
 
 ## Installation
 
-Run `npm install pwmaker`
+Run `npm install react-password-maker`
 
 Use:
 
 ```
-import Password from 'pwmaker';
+import Password from 'react-password-maker';
 ```
 
 After importing it into your file, just use it in your project as you would any other component. `<Password />` is a self-closing component.
