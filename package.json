@@ -2,6 +2,7 @@
     "name": "react-password-maker",
     "version": "1.0.1",
     "description": "",
+    "keywords": ["react", "password"],
     "main": "./lib/Password.js",
     "license": "MIT",
     "scripts": {
