@@ -1,7 +1,7 @@
 {
     "name": "react-password-maker",
-    "version": "1.0.2",
-    "description": "",
+    "version": "1.0.3",
+    "description": "A React component that generates random passwords.",
     "keywords": [
         "react",
         "password"
