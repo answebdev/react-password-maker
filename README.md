@@ -1,6 +1,6 @@
 ## React Password Maker
 
-![rpm-logo](https://user-images.githubusercontent.com/36783010/106371332-20778200-6318-11eb-8276-a1f39a79721c.png)
+![RPM](https://user-images.githubusercontent.com/36783010/106371437-2b7ee200-6319-11eb-8dfa-caeb618a1fcc.png)
 
 React Password Maker is a reusable React component that you can use in your React projects. It allows you to create a random password using uppercase and lowercase letters, as well as numbers. Just input the length of your password from 1 to 50 characters in length, and click the button to generate your password. A copy-to-clipboard feature allows you to copy the generated password to your clipboard. Additionally, error messages inform the user if what was inputted does not fall within the required parameters.
 
