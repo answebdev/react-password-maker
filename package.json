@@ -11,6 +11,10 @@
     "scripts": {
         "build": "webpack"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/answebdev/react-password-maker"
+      },
     "peerDependencies": {
         "prop-types": "^15.6.0",
         "react": "^16.0.0",
