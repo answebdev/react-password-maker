@@ -94,22 +94,50 @@ class PasswordGenerator extends Component {
       <div>
         <div>
           <input
+            style={{
+              border: `${this.props.inputBorder}`,
+              padding: `${this.props.inputPadding}`,
+              borderRadius: `${this.props.inputBorderRadius}`,
+              fontFamily: `${this.props.inputFont}`,
+            }}
             type='text'
             id='characters'
             placeholder='Enter a number'
             onChange={this.handleChange}
             value={this.state.userInput}
           />
-          <p id='instructions'>
+          <p
+            style={{
+              color: `${this.props.instructionsTextColor}`,
+              fontSize: `${this.props.instructionsFontSize}`,
+              fontFamily: `${this.props.instructionsFont}`,
+            }}
+            id='instructions'
+          >
             Please select the length of your password, from 1 to 50 characters.
           </p>
           <br />
-          <button id='pw-btn' onClick={this.createPassword}>
+          <button
+            className={this.props.className}
+            style={{
+              backgroundColor: `${this.props.buttonColor}`,
+              color: `${this.props.buttonTextColor}`,
+              borderRadius: `${this.props.buttonBorderRadius}`,
+              padding: `${this.props.buttonPadding}`,
+              fontFamily: `${this.props.buttonFont}`,
+            }}
+            id='pw-btn'
+            onClick={this.createPassword}
+          >
             Generate Password
           </button>
 
           <div className='pw-div'>
             <i
+              style={{
+                color: `${this.props.iconColor}`,
+                fontSize: `${this.props.iconSize}`,
+              }}
               id='copy-icon'
               onClick={this.copyToClipboard}
               className='far fa-copy'
@@ -119,11 +147,25 @@ class PasswordGenerator extends Component {
               {this.state.string}
             </p>
           </div>
-          <div className='copy-msg'>
+          <div
+            style={{
+              color: `${this.props.copyMessageTextColor}`,
+              fontSize: `${this.props.copyMessageFontSize}`,
+              fontFamily: `${this.props.copyMessageFont}`,
+            }}
+            className='copy-msg'
+          >
             {this.state.copied && <p>{this.state.copyMessage}</p>}
           </div>
 
-          <p id='warning'></p>
+          <p
+            style={{
+              color: `${this.props.errorMsgTextColor}`,
+              fontSize: `${this.props.errorMsgFontSize}`,
+              fontFamily: `${this.props.errorMsgFont}`,
+            }}
+            id='warning'
+          ></p>
         </div>
       </div>
     );
