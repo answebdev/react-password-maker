@@ -28,12 +28,11 @@ const App = () => {
 };
 
 export default App;
-
 ```
 
 ## Styling
 
-To add more flexibility for your projects, you can style elements of the React Password Maker component to suit your needs, though this is optional. Use the following properties when adding your custom CSS values.
+To add more flexibility to your projects, you can style elements of the React Password Maker component to suit your needs, though this is optional. Use the following properties when adding your custom CSS values.
 
 Properties for the input element:
 
@@ -85,7 +84,7 @@ errorMsgFontSize
 errorMsgFont
 ```
 
-To add your own styles using these properties, simply pass them into the component with the values of your choice. The following example adds the Quicksand font to both the button and the input element, makes the button orange, and the button text black (#000000). You may add and customize as many of the listed styles as you want.
+To customize your styles using these properties, simply pass them into the component with the CSS values of your choice. The following example adds the Quicksand font to both the button and the input element, styles the button orange, and the button text black (#000000). You may add and customize as many of the listed properties as you want.
 
 ```
 const App = () => {
@@ -110,9 +109,7 @@ To add pseudo-classes to your button (e.g., :hover, :active), you must first sel
 const App = () => {
   return (
     <div>
-    	<Password
-        className='foo'
-      />
+    	<Password className='foo' />
     </div>
   );
 };
